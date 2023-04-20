@@ -1,0 +1,28 @@
+{
+	"name": "gamedev-jam",
+	"version": "0.0.1",
+	"description": "a little arcade game for gamedev jam",
+	"main": "index.html",
+	"scripts": {
+		"test": "npm run test",
+		"sass": "sass scss:styles --watch",
+		"typescript": "tsc -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AdityaMayukhSom/gamedev-jam.git"
+	},
+	"keywords": [
+		"gamedev-jam"
+	],
+	"author": "devstream",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AdityaMayukhSom/gamedev-jam/issues"
+	},
+	"homepage": "https://github.com/AdityaMayukhSom/gamedev-jam#readme",
+	"dependencies": {
+		"sass": "^1.62.0",
+		"typescript": "^5.0.4"
+	}
+}
