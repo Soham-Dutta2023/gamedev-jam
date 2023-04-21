@@ -13,6 +13,16 @@ $numberOfColumns: 12;
         grid-row-end: 3;
     }
 
+    .top-machine-container {
+        position: relative;
+
+        .top-machine {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
     #destination-container {
         grid-row-start: 1;
         grid-row-end: 3;
